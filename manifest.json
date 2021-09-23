@@ -6,8 +6,8 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://*.yandex.ru/*"],
-      "css": ["inject.css"]
+      "matches": ["https://yandex.ru/", "https://yandex.ru/?*"],
+      "css": ["css/inject.css"]
     }
   ],
   "permissions": [],

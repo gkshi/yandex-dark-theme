@@ -1,0 +1,29 @@
+@import "variables";
+
+.services-new_position_before-arrow {
+  margin-top: 40px !important;
+  margin-bottom: 25px !important;
+}
+
+.services-new {
+  &__promo {
+    &:before {
+      background-color: $color-text-gray !important;
+      opacity: .2;
+    }
+  }
+
+  &__item {
+    .services-new__icon,
+    .services-new__more-icons {
+      filter: grayscale(1) !important;
+    }
+
+    &:hover {
+      .services-new__icon,
+      .services-new__more-icons {
+        filter: grayscale(0) !important;
+      }
+    }
+  }
+}

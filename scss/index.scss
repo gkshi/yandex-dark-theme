@@ -1,0 +1,14 @@
+@import "variables";
+
+@import "news";
+@import "aside";
+@import "aside-icons";
+@import "services";
+@import "search-bar";
+@import "media";
+@import "footer";
+
+html, body {
+  background: $color-primary !important;
+  color: $color-text-regular !important;
+}
