@@ -43,6 +43,24 @@
   &__extra-popup-close {
     background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iOXB4IiBoZWlnaHQ9IjlweCIgdmlld0JveD0iMCAwIDkgOSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICAgIDx0aXRsZT5jcm9zczwvdGl0bGU+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIiBzdHJva2UtbGluZWNhcD0icm91bmQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzOS4wMDAwMDAsIC00NDkuMDAwMDAwKSIgc3Ryb2tlPSIjQzlEMUQ5IiBzdHJva2Utd2lkdGg9IjEuNSI+CiAgICAgICAgICAgIDxnIGlkPSJjcm9zcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTQwLjAwMDAwMCwgNDUwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTMuNSwzLjUgTDcsMCBNMy41LDMuNSBMMCw3IE0zLjUsMy41IEwwLDAgTTMuNSwzLjUgTDcsNyIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==') no-repeat center !important;
   }
+
+  &__agency-icon {
+    filter: grayscale(1) !important;
+  }
+
+  &__list {
+    .news__item {
+      &:hover {
+        .news__agency-icon {
+          filter: grayscale(0) !important;
+        }
+      }
+    }
+  }
+
+  &__inline-stocks {
+    margin-top: 10px !important;
+  }
 }
 
 .home-link {

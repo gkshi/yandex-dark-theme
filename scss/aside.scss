@@ -4,6 +4,12 @@
   &__card {
     background: $color-content-bg !important;
   }
+  &__login-new-items {
+    a.home-link_hover_inherit:link:hover,
+    a.home-link_hover_inherit:visited:hover {
+      color: $color-dark !important;
+    }
+  }
 }
 
 .button_theme_gray {

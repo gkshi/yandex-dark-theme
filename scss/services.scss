@@ -26,4 +26,18 @@
       }
     }
   }
+
+  &__more-popup-services {
+    .services-new__icon {
+      filter: grayscale(0) !important;
+    }
+
+    .services-new__more-popup-item {
+      color: $color-dark !important;
+
+      &:hover {
+        color: $color-red !important;
+      }
+    }
+  }
 }

@@ -1,0 +1,7 @@
+@import "variables";
+
+.traffic {
+  &__forecast__item__value {
+    color: $color-text-gray !important;
+  }
+}
