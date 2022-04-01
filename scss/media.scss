@@ -97,3 +97,22 @@
     }
   }
 }
+
+.b-page_redesign-widgets_yes {
+  .media-grid_has-inserts_yes {
+    background-image: none !important;
+    background-color: $color-primary !important;
+  }
+
+  .home-link2_color_black, .home-link2_color_black:visited {
+    color: $color-text-regular !important;
+  }
+
+  .stocks-new__item-delta, .stocks-new__item-subtitle {
+    color: $color-text-gray !important;
+  }
+
+  .widget {
+    background-color: $color-content-bg !important;
+  }
+}

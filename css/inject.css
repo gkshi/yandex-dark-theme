@@ -211,6 +211,20 @@
   background: #15161d !important;
 }
 
+.b-page_redesign-widgets_yes .media-grid_has-inserts_yes {
+  background-image: none !important;
+  background-color: #15161d !important;
+}
+.b-page_redesign-widgets_yes .home-link2_color_black, .b-page_redesign-widgets_yes .home-link2_color_black:visited {
+  color: #c9d1d9 !important;
+}
+.b-page_redesign-widgets_yes .stocks-new__item-delta, .b-page_redesign-widgets_yes .stocks-new__item-subtitle {
+  color: #70717b !important;
+}
+.b-page_redesign-widgets_yes .widget {
+  background-color: #202125 !important;
+}
+
 .b-page_bg-exp_yes .media-infinity-footer__content-inner {
   background: #0f1015 !important;
 }
